@@ -38,51 +38,51 @@ public class GameController implements Initializable {
     private Group saveButton;
 
     @FXML
-    private Rectangle platform1;
+    private ImageView platform1;
     @FXML
-    private Rectangle platform2;
+    private ImageView platform2;
     @FXML
-    private Rectangle platform3;
+    private ImageView platform3;
     @FXML
-    private Rectangle platform4;
+    private ImageView platform4;
     @FXML
-    private Rectangle platform5;
+    private ImageView platform5;
     @FXML
-    private Rectangle platform6;
+    private ImageView platform6;
     @FXML
-    private Rectangle platform7;
+    private ImageView platform7;
     @FXML
-    private Rectangle platform8;
+    private ImageView platform8;
     @FXML
-    private Rectangle platform9;
+    private ImageView platform9;
     @FXML
-    private Rectangle platform10;
+    private ImageView platform10;
     @FXML
-    private Rectangle platform11;
+    private ImageView platform11;
     @FXML
-    private Rectangle platform12;
+    private ImageView platform12;
     @FXML
-    private Rectangle platform13;
+    private ImageView platform13;
     @FXML
-    private Rectangle platform14;
+    private ImageView platform14;
     @FXML
-    private Rectangle platform15;
+    private ImageView platform15;
     @FXML
-    private Rectangle platform16;
+    private ImageView platform16;
     @FXML
-    private Rectangle platform17;
+    private ImageView platform17;
     @FXML
-    private Rectangle platform18;
+    private ImageView platform18;
     @FXML
-    private Rectangle platform19;
+    private ImageView platform19;
     @FXML
-    private Rectangle platform20;
+    private ImageView platform20;
     @FXML
-    private Rectangle platform21;
+    private ImageView platform21;
     @FXML
-    private Rectangle platform22;
+    private ImageView platform22;
     @FXML
-    private Rectangle platform23;
+    private ImageView platform23;
 
     public Group getEnvironment() {
         return environment;
@@ -92,15 +92,90 @@ public class GameController implements Initializable {
         return scoreText;
     }
 
+    // getPlatform() //
+    public ImageView getPlatform1() {
+        return platform1;
+    }
+    public ImageView getPlatform2() {
+        return platform2;
+    }
+    public ImageView getPlatform3() {
+        return platform3;
+    }
+    public ImageView getPlatform4() {
+        return platform4;
+    }
+    public ImageView getPlatform5() {
+        return platform5;
+    }
+    public ImageView getPlatform6() {
+        return platform6;
+    }
+    public ImageView getPlatform7() {
+        return platform7;
+    }
+    public ImageView getPlatform8() {
+        return platform8;
+    }
+    public ImageView getPlatform9() {
+        return platform9;
+    }
+    public ImageView getPlatform10() {
+        return platform10;
+    }
+    public ImageView getPlatform11() {
+        return platform11;
+    }
+    public ImageView getPlatform12() {
+        return platform12;
+    }
+    public ImageView getPlatform13() {
+        return platform13;
+    }
+    public ImageView getPlatform14() {
+        return platform14;
+    }
+    public ImageView getPlatform15() {
+        return platform15;
+    }
+    public ImageView getPlatform16() {
+        return platform16;
+    }
+    public ImageView getPlatform17() {
+        return platform17;
+    }
+    public ImageView getPlatform18() {
+        return platform18;
+    }
+    public ImageView getPlatform19() {
+        return platform19;
+    }
+    public ImageView getPlatform20() {
+        return platform20;
+    }
+    public ImageView getPlatform21() {
+        return platform21;
+    }
+    public ImageView getPlatform22() {
+        return platform22;
+    }
+    public ImageView getPlatform23() {
+        return platform23;
+    }
+
     private boolean gameActive = false;
 
     public boolean isGameActive() {
         return gameActive;
     }
 
+    public ImageView getPlayerImg() {
+        return playerImg;
+    }
+
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        jumpInfinite(playerImg).play();
+
         jumpInfinite(greenOrc1).play();
     }
 

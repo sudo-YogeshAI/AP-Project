@@ -11,424 +11,376 @@
    <children>
       <Group fx:id="environment" layoutX="50.0" layoutY="200.0">
          <children>
-            <Group>
-               <children>
-                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/platform3_prev_ui.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/platform3_prev_ui.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="400.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/platform3_prev_ui.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="600.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/platform3_prev_ui.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="100.0" fitWidth="200.0" layoutX="100.0" layoutY="-100.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree1.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="300.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree3.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="100.0" fitWidth="200.0" layoutX="500.0" layoutY="-100.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree2.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="350.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree3.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="250.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree3.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="100.0" fitWidth="200.0" layoutX="600.0" layoutY="-100.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree1.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="700.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree3.jpg" />
-                     </image>
-                  </ImageView>
-               </children>
-            </Group>
-            <Group layoutX="1000.0">
-               <children>
-                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/platform2.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/platform2.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="100.0" fitWidth="200.0" layoutX="64.0" layoutY="-100.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree1.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="300.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree3.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="350.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree3.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="250.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree3.jpg" />
-                     </image>
-                  </ImageView>
-               </children>
-            </Group>
-            <Group layoutX="1500.0">
-               <children>
-                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/platform3_prev_ui.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="400.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/platform3_prev_ui.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="600.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/platform3_prev_ui.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="300.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree3.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="100.0" fitWidth="200.0" layoutX="500.0" layoutY="-100.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree2.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="350.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree3.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="250.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree3.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="100.0" fitWidth="200.0" layoutX="600.0" layoutY="-100.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree1.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="700.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree3.jpg" />
-                     </image>
-                  </ImageView>
-               </children>
-            </Group>
-            <Group layoutX="2500.0">
-               <children>
-                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/platform3.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/platform3.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="100.0" fitWidth="200.0" layoutX="187.0" layoutY="-100.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree1.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="350.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree3.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="41.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree3.jpg" />
-                     </image>
-                  </ImageView>
-               </children>
-            </Group>
-            <Group layoutX="3000.0">
-               <children>
-                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/platform3.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="41.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree3.jpg" />
-                     </image>
-                  </ImageView>
-               </children>
-            </Group>
-            <Group layoutX="3300.0">
-               <children>
-                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/platform3.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="88.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree1.jpg" />
-                     </image>
-                  </ImageView>
-               </children>
-            </Group>
-            <Group layoutX="3600.0">
-               <children>
-                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/platform3.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="88.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree1.jpg" />
-                     </image>
-                  </ImageView>
-               </children>
-            </Group>
-            <Group layoutX="4000.0">
-               <children>
-                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/platform3_prev_ui.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/platform3_prev_ui.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="400.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/platform3_prev_ui.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="600.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/platform3_prev_ui.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="100.0" fitWidth="200.0" layoutX="249.0" layoutY="-100.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree1.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="125.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree3.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="100.0" fitWidth="200.0" layoutX="500.0" layoutY="-100.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree2.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="413.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree3.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="63.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree3.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="100.0" fitWidth="200.0" layoutX="700.0" layoutY="-100.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree1.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="610.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree3.jpg" />
-                     </image>
-                  </ImageView>
-               </children>
-            </Group>
-            <Group layoutX="5000.0">
-               <children>
-                  <ImageView fitHeight="10.0" fitWidth="200.0" pickOnBounds="true">
-                     <image>
-                        <Image url="@pics/pics/old-wooden-background-texture-old-wood-photo.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="10.0" fitWidth="200.0" layoutX="200.0" pickOnBounds="true">
-                     <image>
-                        <Image url="@pics/pics/old-wooden-background-texture-old-wood-photo.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="10.0" fitWidth="200.0" layoutX="400.0" pickOnBounds="true">
-                     <image>
-                        <Image url="@pics/pics/old-wooden-background-texture-old-wood-photo.jpg" />
-                     </image>
-                  </ImageView>
-               </children>
-            </Group>
-            <Group layoutX="5600.0">
-               <children>
-                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/platform3_prev_ui.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/platform3_prev_ui.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="400.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/platform3_prev_ui.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="600.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/platform3_prev_ui.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="100.0" fitWidth="200.0" layoutX="100.0" layoutY="-100.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree1.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="300.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree3.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="100.0" fitWidth="200.0" layoutX="500.0" layoutY="-100.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree2.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="350.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree3.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="250.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree3.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="100.0" fitWidth="200.0" layoutX="600.0" layoutY="-100.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree1.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="700.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/tree3.jpg" />
-                     </image>
-                  </ImageView>
-               </children>
-            </Group>
-            <Group layoutX="1150.0" layoutY="-50.0">
-               <children>
-                  <ImageView fx:id="greenOrc1" fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/orc.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="700.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/redorc.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fx:id="greenOrc11" fitHeight="50.0" fitWidth="200.0" layoutX="1000.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/orc.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fx:id="greenOrc111" fitHeight="50.0" fitWidth="200.0" layoutX="1600.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/orc.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="1950.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/redorc.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fx:id="greenOrc1111" fitHeight="50.0" fitWidth="200.0" layoutX="2500.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/orc.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="3000.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/redorc.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="3050.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/redorc.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fx:id="greenOrc12" fitHeight="100.0" fitWidth="200.0" layoutX="4200.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/orc.jpg" />
-                     </image>
-                  </ImageView>
-               </children>
-            </Group>
-            <Group layoutX="2020.0" layoutY="-50.0">
-               <children>
-                  <ImageView fx:id="greenOrc11" fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/chest.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fx:id="greenOrc112" fitHeight="50.0" fitWidth="200.0" layoutX="1300.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/chest.jpg" />
-                     </image>
-                  </ImageView>
-                  <ImageView fx:id="greenOrc1121" fitHeight="50.0" fitWidth="200.0" layoutX="2400.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@pics/pics/chest.jpg" />
-                     </image>
-                  </ImageView>
-               </children>
-            </Group>
+            <ImageView fx:id="platform1" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/platform3_prev_ui.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="platform2" fitHeight="150.0" fitWidth="200.0" layoutX="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/platform3_prev_ui.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="platform3" fitHeight="150.0" fitWidth="200.0" layoutX="400.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/platform3_prev_ui.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="platform4" fitHeight="150.0" fitWidth="200.0" layoutX="600.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/platform3_prev_ui.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="200.0" layoutX="300.0" layoutY="-100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="500.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="75.0" fitWidth="200.0" layoutX="650.0" layoutY="-75.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="700.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="150.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="200.0" layoutX="1100.0" layoutY="-100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="1300.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="platform5" fitHeight="150.0" fitWidth="200.0" layoutX="1000.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/platform2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="platform6" fitHeight="150.0" fitWidth="200.0" layoutX="1200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/platform2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="200.0" layoutX="1700.0" layoutY="-100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="1900.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="2200.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="platform7" fitHeight="150.0" fitWidth="200.0" layoutX="1600.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/platform3_prev_ui.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="platform8" fitHeight="150.0" fitWidth="200.0" layoutX="1800.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/platform3_prev_ui.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="platform9" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/platform3_prev_ui.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="platform10" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/platform3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="platform11" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/platform3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="platform12" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/platform3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="platform13" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/platform3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="platform14" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/platform3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="platform15" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/platform3_prev_ui.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="platform16" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/platform3_prev_ui.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="platform17" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/platform3_prev_ui.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="platform18" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/platform3_prev_ui.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="platform19" fitHeight="10.0" fitWidth="200.0" pickOnBounds="true">
+               <image>
+                  <Image url="@pics/pics/old-wooden-background-texture-old-wood-photo.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="platform20" fitHeight="10.0" fitWidth="200.0" pickOnBounds="true">
+               <image>
+                  <Image url="@pics/pics/old-wooden-background-texture-old-wood-photo.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="platform21" fitHeight="10.0" fitWidth="200.0" pickOnBounds="true">
+               <image>
+                  <Image url="@pics/pics/old-wooden-background-texture-old-wood-photo.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="platform22" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/platform3_prev_ui.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="platform23" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/platform3_prev_ui.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/platform3_prev_ui.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/platform3_prev_ui.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/tree3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="greenOrc1" fitHeight="30.0" fitWidth="200.0" layoutX="600.0" layoutY="-30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/orc.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/redorc.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="greenOrc11" fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/orc.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="greenOrc111" fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/orc.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/redorc.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="greenOrc1111" fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/orc.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/redorc.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/redorc.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="greenOrc12" fitHeight="100.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/orc.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="greenOrc11" fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/chest.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="greenOrc112" fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/chest.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="greenOrc1121" fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/chest.jpg" />
+               </image>
+            </ImageView>
          </children>
       </Group>
       <ImageView fx:id="playerImg" fitHeight="50.0" fitWidth="200.0" layoutX="50.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
@@ -441,7 +393,7 @@
             <Font name="Britannic Bold" size="15.0" />
          </font>
       </Text>
-      <Group fx:id="menu">
+      <Group fx:id="menu" translateY="400.0">
          <children>
             <ImageView fitHeight="540.0" fitWidth="689.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -455,7 +407,7 @@
                         <Image url="@pics/pics/Btn_V09.png" />
                      </image>
                   </ImageView>
-                  <Text layoutX="34.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New com.example.willhero.project.Game">
+                  <Text layoutX="34.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Game">
                      <font>
                         <Font name="Harlow Solid Italic" size="18.0" />
                      </font>
@@ -474,7 +426,7 @@
                         <Image url="@pics/pics/Btn_V09.png" />
                      </image>
                   </ImageView>
-                  <Text layoutX="33.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Load com.example.willhero.project.Game">
+                  <Text layoutX="33.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Save Game">
                      <font>
                         <Font name="Harlow Solid Italic" size="18.0" />
                      </font>
