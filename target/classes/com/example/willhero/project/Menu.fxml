@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Group>
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Developed by: Yogesh And Jahanvi">
+               <font>
+                  <Font name="Bell MT" size="12.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/—Pngtree—exit%20close%20button%20for%20game_6655002.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="43.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/play-png-31069.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="540.0" fitWidth="689.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pics/menu.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Group>
+   </children>
+</Pane>
