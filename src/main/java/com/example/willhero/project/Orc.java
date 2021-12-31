@@ -16,9 +16,12 @@ public abstract class Orc extends Mortal  {
         this.health = health;
     }
 
-
     public void updatePerFrame() {
         super.updatePerFrame(platforms);
 
+    }
+
+    public void push() {
+        forwardSteps = stepsPerFrame;
     }
 }

@@ -16,11 +16,13 @@ public class Mortal {
     private double size;
     protected double stepsPerFrame;
     private double jumpHeight;
+    private double offsetY;
 
     public Mortal(ImageView img, double size, double offsetX, double offsetY, double jumpHeight) {
         this.image = img;
         this.size = size;
         this.jumpHeight = jumpHeight;
+        this.offsetY = offsetY;
         this.rectangle = new Rectangle(image.getLayoutX()+offsetX,image.getLayoutY()+offsetY,size,size);
         rectangle.setLayoutX(image.getLayoutX()+offsetX);
         rectangle.setLayoutY(image.getLayoutY()+offsetY);
@@ -41,12 +43,14 @@ public class Mortal {
         // Animation
         if (isMovingUp) {
             posY-=1;
+            image.setLayoutY(image.getLayoutY()-1);
             if (posY<=-1*size-jumpHeight) {
                 isMovingUp=false;
             }
         }
         else {
             posY+=1;
+            image.setLayoutY(image.getLayoutY()+1);
 //            if (posY>=-50) {
 //                isMovingUp=true;
 //            }
@@ -54,7 +58,6 @@ public class Mortal {
                 isAlive = false;
             }
         }
-        image.setLayoutY(posY+202);
         rectangle.setLayoutY(posY);
 
         // Fall Detection
@@ -80,5 +83,9 @@ public class Mortal {
 
     public boolean getIsAlive() {
         return isAlive;
+    }
+
+    public double getPosX() {
+        return posX;
     }
 }

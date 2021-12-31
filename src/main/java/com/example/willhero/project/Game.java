@@ -27,6 +27,7 @@ public class Game extends Application {
     private int coins;
     private boolean isRunning;
     private ArrayList<GamePlatform> platforms;
+    private ArrayList<Orc> orcs;
 
 
     @Override
@@ -59,10 +60,24 @@ public class Game extends Application {
         AnimationTimer fps = new AnimationTimer() {
             @Override
             public void handle(long l) {
+                // Updating Players and Orcs
                 player.updatePerFrame(platforms);
+                for (Orc orc: orcs) {
+                    orc.updatePerFrame();
+                }
                 if (!player.getIsAlive()) {
                     stop();
                     controller.pause();
+                }
+
+                // Collision with orc
+                if (orcs.size()>0) {
+                    Orc orc = orcs.get(0);
+                    boolean orcPush = Collision.collisionFromLeft(player.getRectangle(), orc.getRectangle());
+                    if (orcPush) {
+                        System.out.println("Yo");
+                        orc.push();
+                    }
                 }
             }
         };
@@ -98,6 +113,13 @@ public class Game extends Application {
         this.platforms.add(new GamePlatform(controller.getPlatform21()));
         this.platforms.add(new GamePlatform(controller.getPlatform22()));
         this.platforms.add(new GamePlatform(controller.getPlatform23()));
+
+        // Setting up orcs
+        this.orcs = new ArrayList<Orc>();
+        ArrayList<GamePlatform> temp = new ArrayList<GamePlatform>();
+        temp.add(platforms.get(2));
+        temp.add(platforms.get(3));
+        this.orcs.add(new GreenOrc(temp,controller.getGreenOrc1()));
 
     }
 

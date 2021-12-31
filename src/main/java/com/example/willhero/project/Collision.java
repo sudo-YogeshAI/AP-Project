@@ -9,8 +9,10 @@ public class Collision {
         if (rect1==null || rect2==null) {
             return false;
         }
-        Rectangle temp = new Rectangle(rect2.getX(),rect2.getY(), 1,rect2.getHeight());
-        return (rect1.getBoundsInParent().intersects(temp.getBoundsInParent()));
+        boolean returnValue;
+        returnValue = (rect1.getLayoutY()<=rect2.getLayoutY() && rect2.getLayoutY()<=rect1.getLayoutY()+rect1.getHeight()) || (rect1.getLayoutY()<=rect2.getLayoutY()+ rect2.getHeight() && rect2.getLayoutY()+rect2.getHeight()<=rect1.getLayoutY()+rect1.getHeight());
+        returnValue = returnValue && ( Math.abs(rect2.getLayoutX()+rect2.getWidth()-rect1.getLayoutX())<=5);
+        return returnValue;
     }
     public static boolean collisionFromBottom(Rectangle rect1, Rectangle rect2) {
         if (rect1==null || rect2==null) {

@@ -25,9 +25,6 @@ public class GameController implements Initializable {
     private Text scoreText;
 
     @FXML
-    private ImageView greenOrc1;
-
-    @FXML
     private Group playButton;
 
     @FXML
@@ -37,6 +34,7 @@ public class GameController implements Initializable {
     @FXML
     private Group saveButton;
 
+    // Importing Platforms //
     @FXML
     private ImageView platform1;
     @FXML
@@ -83,6 +81,10 @@ public class GameController implements Initializable {
     private ImageView platform22;
     @FXML
     private ImageView platform23;
+
+    // Importing Orcs //
+    @FXML
+    private ImageView greenOrc1;
 
     public Group getEnvironment() {
         return environment;
@@ -161,6 +163,11 @@ public class GameController implements Initializable {
     }
     public ImageView getPlatform23() {
         return platform23;
+    }
+
+    // getOrc() //
+    public ImageView getGreenOrc1() {
+        return greenOrc1;
     }
 
     private boolean gameActive = false;
