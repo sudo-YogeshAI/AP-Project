@@ -8,9 +8,9 @@ import java.util.ArrayList;
 public class Mortal {
     protected double posX;
     private double posY;
-    private ImageView image;
-    private Rectangle rectangle;
-    private boolean isAlive;
+    protected ImageView image;
+    protected Rectangle rectangle;
+    protected boolean isAlive;
     private boolean isMovingUp;
     protected double forwardSteps;
     private double size;
@@ -18,15 +18,15 @@ public class Mortal {
     private double jumpHeight;
     private double offsetY;
 
-    public Mortal(ImageView img, double size, double offsetX, double offsetY, double jumpHeight) {
+    public Mortal(ImageView img, double size, double offsetX, double offsetY, double jumpHeight, double posX) {
         this.image = img;
         this.size = size;
         this.jumpHeight = jumpHeight;
         this.offsetY = offsetY;
+        this.posX = posX;
         this.rectangle = new Rectangle(image.getLayoutX()+offsetX,image.getLayoutY()+offsetY,size,size);
         rectangle.setLayoutX(image.getLayoutX()+offsetX);
         rectangle.setLayoutY(image.getLayoutY()+offsetY);
-        posX = 0;
         posY = -1*size;
         forwardSteps = 0;
         stepsPerFrame = 5;
@@ -61,13 +61,11 @@ public class Mortal {
         rectangle.setLayoutY(posY);
 
         // Fall Detection
-        boolean onPlatform = false;
         for(GamePlatform platform: platforms) {
             boolean temp = Collision.collisionFromBottom(platform.getRectangle(),rectangle);
-            onPlatform = onPlatform | temp;
             if (temp==true) {
-                System.out.println(platform.getRectangle().getLayoutX()+" "+ platform.getRectangle().getLayoutY()+" "+ platform.getRectangle().getWidth()+" "+ platform.getRectangle().getHeight());
-                System.out.println(rectangle.getLayoutX()+" "+ rectangle.getLayoutY()+" "+ rectangle.getWidth()+" "+ rectangle.getHeight()+"\n");
+//                System.out.println(platform.getRectangle().getLayoutX()+" "+ platform.getRectangle().getLayoutY()+" "+ platform.getRectangle().getWidth()+" "+ platform.getRectangle().getHeight());
+//                System.out.println(rectangle.getLayoutX()+" "+ rectangle.getLayoutY()+" "+ rectangle.getWidth()+" "+ rectangle.getHeight()+"\n");
                 isMovingUp = true;
                 break;
             }
@@ -87,5 +85,9 @@ public class Mortal {
 
     public double getPosX() {
         return posX;
+    }
+
+    public ImageView getImage() {
+        return image;
     }
 }

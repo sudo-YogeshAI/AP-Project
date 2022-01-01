@@ -321,7 +321,7 @@
                   <Image url="@pics/pics/tree3.jpg" />
                </image>
             </ImageView>
-            <ImageView fx:id="greenOrc1" fitHeight="30.0" fitWidth="200.0" layoutX="600.0" layoutY="-30.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="greenOrc1" fitHeight="50.0" fitWidth="200.0" layoutX="630.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@pics/pics/orc.jpg" />
                </image>
@@ -389,6 +389,11 @@
          </image>
       </ImageView>
       <Text fx:id="scoreText" layoutX="289.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+         <font>
+            <Font name="Britannic Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="coinsText" layoutX="521.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Coins: 0">
          <font>
             <Font name="Britannic Bold" size="15.0" />
          </font>

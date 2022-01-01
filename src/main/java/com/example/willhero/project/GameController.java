@@ -15,14 +15,18 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 public class GameController implements Initializable {
-    @FXML
-    private Group environment;
-
+    // Importing Player
     @FXML
     private ImageView playerImg;
 
     @FXML
+    private Group environment;
+
+    @FXML
     private Text scoreText;
+
+    @FXML
+    private Text coinsText;
 
     @FXML
     private Group playButton;
@@ -86,12 +90,18 @@ public class GameController implements Initializable {
     @FXML
     private ImageView greenOrc1;
 
+    // get Player //
+    public ImageView getPlayerImg() {
+        return playerImg;
+    }
     public Group getEnvironment() {
         return environment;
     }
-
     public Text getScoreText() {
         return scoreText;
+    }
+    public Text getCoinsText() {
+        return coinsText;
     }
 
     // getPlatform() //
@@ -176,43 +186,23 @@ public class GameController implements Initializable {
         return gameActive;
     }
 
-    public ImageView getPlayerImg() {
-        return playerImg;
-    }
-
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
-        jumpInfinite(greenOrc1).play();
+
     }
 
-    private TranslateTransition jumpInfinite(Node node) {
-        TranslateTransition obj = new TranslateTransition();
-        obj.setNode(node);
-        obj.setByY(-75);
-        obj.setDuration(Duration.millis(500));
-        obj.setCycleCount(TranslateTransition.INDEFINITE);
-        obj.setAutoReverse(true);
-        return obj;
-    }
 
-    private TranslateTransition slideUp(Node node, int dir) {
-        TranslateTransition obj = new TranslateTransition();
-        obj.setNode(node);
-        obj.setByY(-400*dir);
-        obj.setDuration(Duration.millis(500));
-        return obj;
-    }
 
     public void play() {
         gameActive = true;
-        slideUp(menu, -1).play();
+        Animations.slideUp(menu, -1).play();
         saveButton.setDisable(false);
         saveButton.setVisible(true);
     }
 
     public void pause() {
         gameActive = false;
-        slideUp(menu, 1).play();
+        Animations.slideUp(menu, 1).play();
     }
 }

@@ -11,7 +11,7 @@ public class Collision {
         }
         boolean returnValue;
         returnValue = (rect1.getLayoutY()<=rect2.getLayoutY() && rect2.getLayoutY()<=rect1.getLayoutY()+rect1.getHeight()) || (rect1.getLayoutY()<=rect2.getLayoutY()+ rect2.getHeight() && rect2.getLayoutY()+rect2.getHeight()<=rect1.getLayoutY()+rect1.getHeight());
-        returnValue = returnValue && ( Math.abs(rect2.getLayoutX()+rect2.getWidth()-rect1.getLayoutX())<=5);
+        returnValue = returnValue && ( Math.abs(rect2.getLayoutX()+rect2.getWidth()-rect1.getLayoutX())<=0);
         return returnValue;
     }
     public static boolean collisionFromBottom(Rectangle rect1, Rectangle rect2) {
@@ -19,7 +19,7 @@ public class Collision {
             return false;
         }
         boolean returnValue;
-        returnValue = (rect1.getLayoutX()<=rect2.getLayoutX() && rect2.getLayoutX()<=rect1.getLayoutX()+rect1.getWidth()) || (rect1.getLayoutX()<=rect2.getLayoutX()+ rect2.getWidth() && rect2.getLayoutX()+rect2.getWidth()<=rect1.getLayoutX()+rect1.getWidth());
+        returnValue = (rect1.getLayoutX()<=rect2.getLayoutX() && rect2.getLayoutX()<=rect1.getLayoutX()+rect1.getWidth());
         returnValue = returnValue && ( Math.abs(rect2.getLayoutY()+rect2.getHeight()-rect1.getLayoutY())<=0);
         return returnValue;
 //        Rectangle temp = new Rectangle(rect2.getLayoutX(),rect2.getLayoutY()+rect2.getHeight(),rect2.getWidth(),10);

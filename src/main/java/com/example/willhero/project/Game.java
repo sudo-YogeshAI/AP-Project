@@ -28,6 +28,7 @@ public class Game extends Application {
     private boolean isRunning;
     private ArrayList<GamePlatform> platforms;
     private ArrayList<Orc> orcs;
+    private Orc currentOrc;
 
 
     @Override
@@ -47,6 +48,7 @@ public class Game extends Application {
                     if (gameActive) {
                         player.move();
                         System.out.println("Right");
+                        System.out.println(player.getRectangle().getLayoutX()+" "+player.getRectangle().getLayoutY()+" "+player.getRectangle().getWidth()+" "+player.getRectangle().getHeight());
                     }
                 }
                 if (keyEvent.getCode()== KeyCode.P) {
@@ -57,6 +59,7 @@ public class Game extends Application {
                 }
             }
         });
+        currentOrc = orcs.get(0);
         AnimationTimer fps = new AnimationTimer() {
             @Override
             public void handle(long l) {
@@ -72,13 +75,28 @@ public class Game extends Application {
 
                 // Collision with orc
                 if (orcs.size()>0) {
-                    Orc orc = orcs.get(0);
-                    boolean orcPush = Collision.collisionFromLeft(player.getRectangle(), orc.getRectangle());
-                    if (orcPush) {
-                        System.out.println("Yo");
-                        orc.push();
+                    if (currentOrc!=null) {
+                        boolean orcPush = Collision.collisionFromLeft(currentOrc.getRectangle(), player.getRectangle());
+                        if (orcPush) {
+                            System.out.println("Yo");
+                            currentOrc.push();
+                        } else if (Collision.collisionFromBottom(currentOrc.getRectangle(), player.getRectangle())) {
+                            System.out.println("Killed");
+                            currentOrc.damage(100);
+                        }
+                        if (!currentOrc.getIsAlive()) {
+                            Animations.orcDieScale(currentOrc.getImage()).play();
+                            Animations.orcDieTranslate(currentOrc.getImage(), 30).play();
+                            player.addCoin(currentOrc.getKillPoints());
+                            currentOrc = null;
+                        }
                     }
                 }
+
+                // Update current Objects
+                // Update currentOrc
+                int pos = player.getLocation();
+//                if (pos<)
             }
         };
         fps.start();
@@ -87,7 +105,7 @@ public class Game extends Application {
 
     private void setup(GameController controller) {
         // Setting up player
-        this.player = new Player(controller.getEnvironment(), controller.getScoreText(), controller.getPlayerImg());
+        this.player = new Player(controller.getEnvironment(), controller.getScoreText(), controller.getPlayerImg(), controller.getCoinsText());
         // Setting up platforms
         this.platforms = new ArrayList<GamePlatform>();
         this.platforms.add(new GamePlatform(controller.getPlatform1()));
@@ -119,7 +137,8 @@ public class Game extends Application {
         ArrayList<GamePlatform> temp = new ArrayList<GamePlatform>();
         temp.add(platforms.get(2));
         temp.add(platforms.get(3));
-        this.orcs.add(new GreenOrc(temp,controller.getGreenOrc1()));
+        temp.add(platforms.get(4));
+        this.orcs.add(new GreenOrc(platforms,controller.getGreenOrc1(), 650));
 
     }
 

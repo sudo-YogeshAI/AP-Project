@@ -13,12 +13,16 @@ public class Player extends Mortal {
     private Group environment;
     private Text scoreText;
     private Integer location;
+    private Integer coins;
+    private Text coinsText;
 
-    public Player (Group environment, Text scoreText, ImageView img) {
-        super(img,50, -50, -200,50);
+    public Player (Group environment, Text scoreText, ImageView img, Text coinsText) {
+        super(img,50, -50, -200,100,0);
         this.environment = environment;
         this.scoreText = scoreText;
+        this.coinsText = coinsText;
         location = 0;
+        coins = 0;
     }
 
     @Override
@@ -33,5 +37,14 @@ public class Player extends Mortal {
     public void move() {
         forwardSteps = 50;
         scoreText.setText(location.toString());
+    }
+
+    public void addCoin(int coins) {
+        this.coins += coins;
+        this.coinsText.setText("Coins: "+this.coins.toString());
+    }
+
+    public Integer getLocation() {
+        return location;
     }
 }
