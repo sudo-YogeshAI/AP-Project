@@ -1,5 +1,6 @@
 package com.example.willhero.project;
 
+import com.example.willhero.project.Extra.Collision;
 import javafx.scene.image.ImageView;
 import javafx.scene.shape.Rectangle;
 
@@ -27,6 +28,7 @@ public class Mortal {
         this.rectangle = new Rectangle(image.getLayoutX()+offsetX,image.getLayoutY()+offsetY,size,size);
         rectangle.setLayoutX(image.getLayoutX()+offsetX);
         rectangle.setLayoutY(image.getLayoutY()+offsetY);
+        System.out.println(rectangle.getLayoutX()+" "+rectangle.getLayoutY()+" "+rectangle.getWidth()+" "+rectangle.getHeight());
         posY = -1*size;
         forwardSteps = 0;
         stepsPerFrame = 5;
@@ -73,7 +75,7 @@ public class Mortal {
 
         // Forward Movement
         if (forwardSteps>0) {
-            posX+=stepsPerFrame;
+            posX += stepsPerFrame;
             rectangle.setLayoutX(posX);
             forwardSteps -= stepsPerFrame;
         }
